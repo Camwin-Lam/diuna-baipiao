@@ -1,7 +1,7 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-09-15 15:03:43
+#  创建时间：2022-09-16 23:38:52
 #  模版：v2rayse默认模版
 #  节点数量：1
 #-------------------------------------------------------------#
@@ -13,46 +13,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🐍🐀①🍳","ws-opts":{"path":"/diuniema"},"server":"gross.camwin.top","port":443,"uuid":"63e3edc0-dbc7-46e1-f926-edbc331ba669","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🐂🍺⑥⑥⑥","ws-opts":{"path":"/diunaxing"},"server":"fearless.camwin.top","port":443,"uuid":"0d1d4d18-72cc-416d-acd4-45b9dc3dd9ff","alterId":0,"cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🐍🐀①🍳
+      - 🐂🍺⑥⑥⑥
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🐍🐀①🍳
+      - 🐂🍺⑥⑥⑥
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🐍🐀①🍳
+      - 🐂🍺⑥⑥⑥
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🐍🐀①🍳
+      - 🐂🍺⑥⑥⑥
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🐍🐀①🍳
+      - 🐂🍺⑥⑥⑥
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🐍🐀①🍳
+      - 🐂🍺⑥⑥⑥
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -75,7 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🐍🐀①🍳
+      - 🐂🍺⑥⑥⑥
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
