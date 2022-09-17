@@ -15,7 +15,7 @@ external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vmess","name":"🐂🍺⑥⑥⑥","ws-opts":{"path":"/diunaxing"},"server":"slut.camwin.top","port":443,"uuid":"34d50417-c092-48d4-aac2-d482ea188c23","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"🐍🐀①🍳","server":"slut.camwin.top","port":444,"password":"HXLNIV6OWL","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"我是大SB","server":"slut.camwin.top","port":445,"cipher":"aes-256-gcm","password":"XCPbdFHvF4"}
+  - {"type":"ss","name":"我是大SB","server":"slut.camwin.top","port":445,"cipher":"aes-256-gcm","password":"507vT0rfvP"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
