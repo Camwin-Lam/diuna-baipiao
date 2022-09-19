@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-09-19 09:30:06
+#  创建时间：2022-09-19 10:17:18
 #  模版：v2rayse默认模版
-#  节点数量：4
+#  节点数量：7
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -17,6 +17,9 @@ proxies:
   - {"type":"trojan","name":"我是大SB","server":"slut.camwin.top","port":441,"password":"wMk5W05MwQ","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"🐍🐀①🍳","server":"slut.camwin.top","port":444,"password":"HXLNIV6OWL","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"🐂🍺⑥⑥⑥","ws-opts":{"path":"/diunaxing"},"server":"slut.camwin.top","port":443,"uuid":"34d50417-c092-48d4-aac2-d482ea188c23","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"直播食粑粑","ws-opts":{"path":"/diunaxing"},"server":"whore.camwin.top","port":440,"uuid":"bd9ddb2e-63c6-4d59-a9d7-6aede2b6198c","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"苦逼打工仔","server":"whore.camwin.top","port":441,"password":"RnxMWyHOZ5","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"听日发达💴💵","server":"whore.camwin.top","port":442,"cipher":"aes-256-gcm","password":"MDkRUNC8pX"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -27,6 +30,9 @@ proxy-groups:
       - 我是大SB
       - 🐍🐀①🍳
       - 🐂🍺⑥⑥⑥
+      - 直播食粑粑
+      - 苦逼打工仔
+      - 听日发达💴💵
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -37,6 +43,9 @@ proxy-groups:
       - 我是大SB
       - 🐍🐀①🍳
       - 🐂🍺⑥⑥⑥
+      - 直播食粑粑
+      - 苦逼打工仔
+      - 听日发达💴💵
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -47,6 +56,9 @@ proxy-groups:
       - 我是大SB
       - 🐍🐀①🍳
       - 🐂🍺⑥⑥⑥
+      - 直播食粑粑
+      - 苦逼打工仔
+      - 听日发达💴💵
   - name: 📲 电报信息
     type: select
     proxies:
@@ -56,6 +68,9 @@ proxy-groups:
       - 我是大SB
       - 🐍🐀①🍳
       - 🐂🍺⑥⑥⑥
+      - 直播食粑粑
+      - 苦逼打工仔
+      - 听日发达💴💵
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -65,6 +80,9 @@ proxy-groups:
       - 我是大SB
       - 🐍🐀①🍳
       - 🐂🍺⑥⑥⑥
+      - 直播食粑粑
+      - 苦逼打工仔
+      - 听日发达💴💵
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -74,6 +92,9 @@ proxy-groups:
       - 我是大SB
       - 🐍🐀①🍳
       - 🐂🍺⑥⑥⑥
+      - 直播食粑粑
+      - 苦逼打工仔
+      - 听日发达💴💵
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,6 +121,9 @@ proxy-groups:
       - 我是大SB
       - 🐍🐀①🍳
       - 🐂🍺⑥⑥⑥
+      - 直播食粑粑
+      - 苦逼打工仔
+      - 听日发达💴💵
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
