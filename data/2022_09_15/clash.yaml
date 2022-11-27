@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-11-27 13:43:03
+#  创建时间：2022-11-27 15:10:21
 #  模版：v2rayse默认模版
-#  节点数量：1
+#  节点数量：3
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -14,6 +14,8 @@ log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"trojan","name":"又来白嫖3个月","server":"35.241.71.40","port":440,"password":"tVGgR3jPiD","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"嫖伦敦","server":"london.camwin.top","port":440,"uuid":"b91584e8-62c0-4ad4-9909-80fe211f64bb","alterId":0,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"嫖洛杉矶","server":"34.102.102.91","port":440,"password":"FKvpNELLHF","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -21,6 +23,8 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 又来白嫖3个月
+      - 嫖伦敦
+      - 嫖洛杉矶
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,6 +32,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 又来白嫖3个月
+      - 嫖伦敦
+      - 嫖洛杉矶
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -35,24 +41,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 又来白嫖3个月
+      - 嫖伦敦
+      - 嫖洛杉矶
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 又来白嫖3个月
+      - 嫖伦敦
+      - 嫖洛杉矶
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 又来白嫖3个月
+      - 嫖伦敦
+      - 嫖洛杉矶
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 又来白嫖3个月
+      - 嫖伦敦
+      - 嫖洛杉矶
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -76,6 +90,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 又来白嫖3个月
+      - 嫖伦敦
+      - 嫖洛杉矶
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
